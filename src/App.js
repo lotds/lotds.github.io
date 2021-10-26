@@ -2,10 +2,18 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="Home">
-      <header className="Home__header">
-        <h1>Hello World</h1>
-      </header>
+    <div className="mainContent">
+      <div className="menuContent">
+        <img src="junto-logo-usable.png" alt="logo" className="logo" />
+        <ul className="menuContent">
+          <li>item do menu</li>
+          <li>item do menu</li>
+          <li>item do menu</li>
+          <li>item do menu</li>
+          <li>item do menu</li>
+          <li>item do menu</li>
+        </ul>
+      </div>
     </div>
   );
 }
