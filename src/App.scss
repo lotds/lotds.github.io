@@ -18,5 +18,11 @@
     .logo {
       max-width: 320px;
     }
+
+    .menuItems {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
   }
 }
